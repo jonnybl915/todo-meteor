@@ -1,1 +1,8 @@
 /* CSS declarations go here */
+.app-container {
+  border: dashed;
+}
+
+body {
+  background-color: #95A5A6;
+}

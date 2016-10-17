@@ -20,3 +20,13 @@ Template.hello.events({
     instance.counter.set(instance.counter.get() + 1);
   },
 });
+
+import './body.html';
+
+Template.body.helpers({
+  tasks: [
+    { text: 'This is task 1' },
+    { text: 'This is task 2' },
+    { text: 'This is task 3' },
+  ],
+});
