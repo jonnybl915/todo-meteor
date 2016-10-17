@@ -108,7 +108,9 @@ li.private {
   background: #eee;
   border-color: #ddd;
 }
-
+li:hover {
+  background-color: #67809F;
+}
 header .hide-completed {
   float: right;
 }
